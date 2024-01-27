@@ -10,7 +10,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/physio" element={<Physioview />} />
+          <Route exact path="/physio" element={<Physioview />} />
 
         </Routes>
       </Router>
