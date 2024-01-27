@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           {/* <Route path="/" element={<Auth />} /> */}
-          <Route path="/" element={<Physioview />} />
+          <Route path="/physio" element={<Physioview />} />
 
         </Routes>
       </Router>
